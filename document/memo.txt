@@ -1,0 +1,97 @@
+
+Consortium Semi-private private public 
+
+Blockchain SSO 
+
+OAuth 2.0 ??ex. 신한카드 
+
+Document Stamping ??ex. 현대 자동차 전자문서 솔루션 
+
+표준화된 블록체인 ??ex. 금융보안원, 금융결제원 
+
+아르고 프로젝트 private to public 
+
+
+블록체인 1세대 2세대 차이 
+2세대는 블록을 지울 수 있다, Smart Contract 
+
+LG 경제연구원 2018년 디지털 기술 10대 이슈
+Hyper-Connection 
+가치의전달??cf. VR/AR : 경험의 전달 
+
+분산원장 : 거래 정보를 기록한 원장 -> db -> computer -> ....
+
+다수 노드가 거래 기록을 공유하므로 데이터 일부분이 손상되더라도 복구 가능
+
+World Wide Web 
+
+Genesis Block??Main Chain Block??Orphan Block
+
+Full node, light node
+
+P2P 단점 : 문제 발생시 책임 소재 모호
+
+거래 스크립트 
+
+컨소시엄 : R3 
+프라이빗 : 나스닥 거래소
+
+블록체인 본질??동국대 박성준 소장 
+
+법정화폐??전자화폐??가상화폐/암호화폐
+
+BTC/XBT
+
+암호 기반 위에 플랫폼을 입혀서 목적에 맞게 사용하는게 요즘 추세
+
+해외 송금
+
+블록체인 기술 스택 
+블록체인 기술의 이해와 개발 현황 및 시사점
+
+해시 함수 
+
+블록 구조 
+트랜잭션??블록(블록헤더 + 트랜잭션)??Merkle Tree
+
+트랜잭션 : transaction id, 입력 값(출금 계좌 UXTO), 출력 값(입금계좌 UXTO) 
+채굴, 합의 알고리즘 
+POW : 
+POS : pow가 전력을 지나치게 소모하는 문제가 있어 이를 보완하고자 등장, 지분으로 준다 
+Nonce 값 
+
+Full node??Lightweight node??Web node
+
+비트코인 주소
+
+ECC -> ECDSA
+
+Base64 -> Base58check Encode 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
