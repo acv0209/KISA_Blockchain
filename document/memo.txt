@@ -1,84 +1,236 @@
+To do List 
+
+ì •ë³´ ë³´ì•ˆ ê¸°ì‚¬
+
+êµ­ë¯¼ ì—°ê¸ˆ ìì†Œì„œ 
+
+ë„¤íŠ¸ì›Œí¬ ë³´ê³ ì„œ ë“± 
+
+=================================================================
 
 Consortium Semi-private private public 
 
 Blockchain SSO 
 
-OAuth 2.0 ??ex. ½ÅÇÑÄ«µå 
+OAuth 2.0 â€ƒâ€ƒex. ì‹ í•œì¹´ë“œ 
 
-Document Stamping ??ex. Çö´ë ÀÚµ¿Â÷ ÀüÀÚ¹®¼­ ¼Ö·ç¼Ç 
+Document Stamping â€ƒâ€ƒex. í˜„ëŒ€ ìë™ì°¨ ì „ìë¬¸ì„œ ì†”ë£¨ì…˜ 
 
-Ç¥ÁØÈ­µÈ ºí·ÏÃ¼ÀÎ ??ex. ±İÀ¶º¸¾È¿ø, ±İÀ¶°áÁ¦¿ø 
+í‘œì¤€í™”ëœ ë¸”ë¡ì²´ì¸ â€ƒâ€ƒex. ê¸ˆìœµë³´ì•ˆì›, ê¸ˆìœµê²°ì œì› 
 
-¾Æ¸£°í ÇÁ·ÎÁ§Æ® private to public 
+ì•„ë¥´ê³  í”„ë¡œì íŠ¸ private to public 
 
 
-ºí·ÏÃ¼ÀÎ 1¼¼´ë 2¼¼´ë Â÷ÀÌ 
-2¼¼´ë´Â ºí·ÏÀ» Áö¿ï ¼ö ÀÖ´Ù, Smart Contract 
+ë¸”ë¡ì²´ì¸ 1ì„¸ëŒ€ 2ì„¸ëŒ€ ì°¨ì´ 
+2ì„¸ëŒ€ëŠ” ë¸”ë¡ì„ ì§€ìš¸ ìˆ˜ ìˆë‹¤, Smart Contract 
 
-LG °æÁ¦¿¬±¸¿ø 2018³â µğÁöÅĞ ±â¼ú 10´ë ÀÌ½´
+LG ê²½ì œì—°êµ¬ì› 2018ë…„ ë””ì§€í„¸ ê¸°ìˆ  10ëŒ€ ì´ìŠˆ
 Hyper-Connection 
-°¡Ä¡ÀÇÀü´Ş??cf. VR/AR : °æÇèÀÇ Àü´Ş 
+ê°€ì¹˜ì˜ì „ë‹¬â€ƒâ€ƒcf. VR/AR : ê²½í—˜ì˜ ì „ë‹¬ 
 
-ºĞ»ê¿øÀå : °Å·¡ Á¤º¸¸¦ ±â·ÏÇÑ ¿øÀå -> db -> computer -> ....
+ë¶„ì‚°ì›ì¥ : ê±°ë˜ ì •ë³´ë¥¼ ê¸°ë¡í•œ ì›ì¥ -> db -> computer -> ....
 
-´Ù¼ö ³ëµå°¡ °Å·¡ ±â·ÏÀ» °øÀ¯ÇÏ¹Ç·Î µ¥ÀÌÅÍ ÀÏºÎºĞÀÌ ¼Õ»óµÇ´õ¶óµµ º¹±¸ °¡´É
+ë‹¤ìˆ˜ ë…¸ë“œê°€ ê±°ë˜ ê¸°ë¡ì„ ê³µìœ í•˜ë¯€ë¡œ ë°ì´í„° ì¼ë¶€ë¶„ì´ ì†ìƒë˜ë”ë¼ë„ ë³µêµ¬ ê°€ëŠ¥
 
 World Wide Web 
 
-Genesis Block??Main Chain Block??Orphan Block
+Genesis Blockâ€ƒâ€ƒMain Chain Blockâ€ƒâ€ƒOrphan Block
 
 Full node, light node
 
-P2P ´ÜÁ¡ : ¹®Á¦ ¹ß»ı½Ã Ã¥ÀÓ ¼ÒÀç ¸ğÈ£
+P2P ë‹¨ì  : ë¬¸ì œ ë°œìƒì‹œ ì±…ì„ ì†Œì¬ ëª¨í˜¸
 
-°Å·¡ ½ºÅ©¸³Æ® 
+ê±°ë˜ ìŠ¤í¬ë¦½íŠ¸ 
 
-ÄÁ¼Ò½Ã¾ö : R3 
-ÇÁ¶óÀÌºø : ³ª½º´Ú °Å·¡¼Ò
+ì»¨ì†Œì‹œì—„ : R3 
+í”„ë¼ì´ë¹— : ë‚˜ìŠ¤ë‹¥ ê±°ë˜ì†Œ
 
-ºí·ÏÃ¼ÀÎ º»Áú??µ¿±¹´ë ¹Ú¼ºÁØ ¼ÒÀå 
+ë¸”ë¡ì²´ì¸ ë³¸ì§ˆâ€ƒâ€ƒë™êµ­ëŒ€ ë°•ì„±ì¤€ ì†Œì¥ 
 
-¹ıÁ¤È­Æó??ÀüÀÚÈ­Æó??°¡»óÈ­Æó/¾ÏÈ£È­Æó
+ë²•ì •í™”íâ€ƒâ€ƒì „ìí™”íâ€ƒâ€ƒê°€ìƒí™”í/ì•”í˜¸í™”í
 
 BTC/XBT
 
-¾ÏÈ£ ±â¹İ À§¿¡ ÇÃ·§ÆûÀ» ÀÔÇô¼­ ¸ñÀû¿¡ ¸Â°Ô »ç¿ëÇÏ´Â°Ô ¿äÁò Ãß¼¼
+ì•”í˜¸ ê¸°ë°˜ ìœ„ì— í”Œë«í¼ì„ ì…í˜€ì„œ ëª©ì ì— ë§ê²Œ ì‚¬ìš©í•˜ëŠ”ê²Œ ìš”ì¦˜ ì¶”ì„¸
 
-ÇØ¿Ü ¼Û±İ
+í•´ì™¸ ì†¡ê¸ˆ
 
-ºí·ÏÃ¼ÀÎ ±â¼ú ½ºÅÃ 
-ºí·ÏÃ¼ÀÎ ±â¼úÀÇ ÀÌÇØ¿Í °³¹ß ÇöÈ² ¹× ½Ã»çÁ¡
+ë¸”ë¡ì²´ì¸ ê¸°ìˆ  ìŠ¤íƒ 
+ë¸”ë¡ì²´ì¸ ê¸°ìˆ ì˜ ì´í•´ì™€ ê°œë°œ í˜„í™© ë° ì‹œì‚¬ì 
 
-ÇØ½Ã ÇÔ¼ö 
+í•´ì‹œ í•¨ìˆ˜ 
 
-ºí·Ï ±¸Á¶ 
-Æ®·£Àè¼Ç??ºí·Ï(ºí·ÏÇì´õ + Æ®·£Àè¼Ç)??Merkle Tree
+ë¸”ë¡ êµ¬ì¡° 
+íŠ¸ëœì­ì…˜â€ƒâ€ƒë¸”ë¡(ë¸”ë¡í—¤ë” + íŠ¸ëœì­ì…˜)â€ƒâ€ƒMerkle Tree
 
-Æ®·£Àè¼Ç : transaction id, ÀÔ·Â °ª(Ãâ±İ °èÁÂ UXTO), Ãâ·Â °ª(ÀÔ±İ°èÁÂ UXTO) 
-Ã¤±¼, ÇÕÀÇ ¾Ë°í¸®Áò 
+íŠ¸ëœì­ì…˜ : transaction id, ì…ë ¥ ê°’(ì¶œê¸ˆ ê³„ì¢Œ UXTO), ì¶œë ¥ ê°’(ì…ê¸ˆê³„ì¢Œ UXTO) 
+ì±„êµ´, í•©ì˜ ì•Œê³ ë¦¬ì¦˜ 
 POW : 
-POS : pow°¡ Àü·ÂÀ» Áö³ªÄ¡°Ô ¼Ò¸ğÇÏ´Â ¹®Á¦°¡ ÀÖ¾î ÀÌ¸¦ º¸¿ÏÇÏ°íÀÚ µîÀå, ÁöºĞÀ¸·Î ÁØ´Ù 
-Nonce °ª 
+POS : powê°€ ì „ë ¥ì„ ì§€ë‚˜ì¹˜ê²Œ ì†Œëª¨í•˜ëŠ” ë¬¸ì œê°€ ìˆì–´ ì´ë¥¼ ë³´ì™„í•˜ê³ ì ë“±ì¥, ì§€ë¶„ìœ¼ë¡œ ì¤€ë‹¤ 
+Nonce ê°’ 
 
-Full node??Lightweight node??Web node
+Full nodeâ€ƒâ€ƒLightweight nodeâ€ƒâ€ƒWeb node
 
-ºñÆ®ÄÚÀÎ ÁÖ¼Ò
+ë¹„íŠ¸ì½”ì¸ ì£¼ì†Œ
 
 ECC -> ECDSA
 
 Base64 -> Base58check Encode 
 
+=================================================================
+
+ê¸°ë°€ì„±
+
+ë¸”ë¡ì²´ì¸ì€ ê¸°ë°€ì„±ì„ ì œê³µí•˜ì§€ ì•Šì§€ë§Œ ì•”í˜¸í™” ì•Œê³ ë¦¬ì¦˜ì„ ëŒë ¤ì„œ ë„£ìœ¼ë©´ ëœë‹¤
+
+ì •ë³´ë³´í˜¸ ê¸°ìˆ  ë¶„ë¥˜
+ì‹œìŠ¤í…œâ€ƒâ€ƒë„¤íŠ¸ì›Œí¬â€ƒâ€ƒì•”í˜¸ ë³´í˜¸ê¸°ìˆ 
+
+ì •ë³´ë³´í˜¸ ì œí’ˆì˜ ë¼ì´í”„ì‚¬ì´í´ 
+*ë¹„ë„ : ë¹„ë°€ë²ˆí˜¸ ê´€ë¦¬
+
+ì •ë³´í˜¸ ì œí’ˆ í‰ê°€
+í‰ê°€ê¸°ê´€, ì •ì±…/ì¸ì¦ê¸°ê´€, ì‚¬ìš©ì 
+
+Exhaustive search or brute force attack 
+
+round 
+
+ì•”í˜¸ ê¸°ë²• ë¶„ë¥˜ : ì „ì¹˜ì•”í˜¸, í™˜ìì•”í˜¸, ë¸”ë¡ ì•”í˜¸, ìŠ¤íŠ¸ë¦¼ ì•”í˜¸, ë§í¬, ì¢…ë‹¨ê°„ ì•”í˜¸, í•˜ë“œì›¨ì–´ ì•”í˜¸, ì†Œí”„íŠ¸ì›¨ì–´ ì•”í˜¸ 
+GPUë„ í•œê³„ê°€ ìˆë‹¤â€ƒâ€ƒì—ì´ì§?
+
+í•˜ì´ë¸Œë¦¬ë“œ ì•”í˜¸ ì‹œìŠ¤í…œ 
+
+ì˜ì‚¬ë‚œìˆ˜ ìƒì„±ê¸° : 1ì„¸ëŒ€ ë¹„ë°€í‚¤ ë§Œë“¤ë•Œ 
+
+=================================================================
+
+https://gist.github.com/jejuro/efef79db5e0824160b2a2dcd628a31ff 
+
+gossip protocol 
+
+https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf 
+
+https://steemit.com/kr/@kim066/hashgraph 
+
+ë„¤íŠ¸ì›Œí¬ 
+
+Hybrid P2P
+
+http 
+
+wireshark
+
+ftp
 
 
+========================================================
+
+Application layerë¥¼ ê±°ì¹˜ì§€ ì•Šê³  P2Pë¡œ êµ¬í˜„
+transport ë‹¨ì—ì„œ ëë‚´ê³  Socketìœ¼ë¡œ êµ¬í˜„í•œë‹¤ 
+ê·¸ ìœ„ì— ë‹¨ì€ dAppìœ¼ë¡œ í•œë‹¤ 
+
+javac -encoding UTF-8(EUC-KR) FtpClient.java 
+
+Socket Application : 1~65535, 3000 ë²ˆ ì´ìƒì„ ì¨ë¼ 
+
+í•˜ì´ë¸Œë¦¬ë“œ, í“¨ì–´ P2P
+
+https://www.blocko.io/developers.html 
+
+CoinStack SDK
+
+ìë°” ë²„ì „ì´ ì•ˆ ë§ëŠ” ê²½ìš° 
+Java Build Path
+
+show console 
+
+API reference 
+Blockchain status, Block, Address, Transaction, Stamp
+
+ì§€ê°‘ ì£¼ì†Œ ìƒì„± ìˆœì„œ
+Private key -> public key -> wallet Address
+
+ê°œì¸í‚¤ ìƒì„± 
+1 ~ 2^256 ì‚¬ì´ ì„ì˜ ìˆ«ì ì„ íƒ 
+base58check encoding 
+
+String newPrivateKeyWIF = ECKey.createNewPrivateKey();
+ System.out.println("private key: " + newPrivateKeyWIF);
+
+String newPublicKey = Hex.encodeHexString(ECKey.derivePubKey(newPrivateKeyWIF, false)); System.out.println("public key: " + newPublicKey); 
+
+String your_wallet_address = ECKey.deriveAddress(newPrivateKeyWIF); System.out.println("address: " + your_wallet_address); [ 14:29:47 ]
+
+Address Balance 
+í˜„ì¬ íŠ¹ì • ë¹„íŠ¸ì½”ì¸ ì£¼ì†Œì—ì„œ ë‹¤ë¥¸ ì£¼ì†Œë¡œ ì†¡ê¸ˆ ê°€ëŠ¥í•œ ì”ì•¡ì„ ì‚¬í† ì‹œ ë‹¨ìœ„ë¡œ ë‚˜íƒ€ë‚´ëŠ” ê°ì²´
+ì£¼ì†ŒëŠ” ë¹„íŠ¸ì½”ì¸ì„ ë‹´ê³  ìˆê±°ë‚˜ OP_RETURN dataë¥¼ ë‹´ê³  ìˆë‹¤ 
+í©ì–´ì ¸ ìˆëŠ” UTXO(unspent output)ì˜ ë¹„íŠ¸ì½”ì¸ ìˆ˜ëŸ‰ì„ í•©ì‚°í•˜ì—¬ ë³´ì—¬ì£¼ëŠ” ê¸°ëŠ¥ 
+
+long balance = client.getBalance(your_wallet_address); System.out.println("balance: " + balance); 
+
+String[] transactionIds = client.getTransactions(your_wallet_address);
+ System.out.println("transactions");
+ for (String txId : transactionIds) {
+ System.out.println("txIds[]: " + txId);
+ }
 
 
+Address Unspent Outputs : ì´ì¤‘ ì§€ë¶ˆì„ ë§‰ê¸° ìœ„í•´
+ Output[] outputs = client.getUnspentOutputs(your_wallet_address);
+ System.out.println("unspent outputs");
+ for (Output utxo : outputs) {
+ System.out.println(utxo.getValue());
+ }
+
+Transaction ìƒì„± ë° ì„œëª… 
+ì¼ë°˜ì ìœ¼ë¡œ íŠ¸ëœì­ì…˜ì€ ë‚´ ì£¼ì†Œì˜ ì”ì—¬ ë¹„íŠ¸ì½”ì¸ì„ íƒ€ ì£¼ì†Œë¡œ ì „ì†¡í•˜ê¸° ìœ„í•´ ì‚¬ìš© 
+
+String toPrivateKeyWIF = ECKey.createNewPrivateKey();
+ String toAddress = ECKey.deriveAddress(toPrivateKeyWIF);
+ long amount = io.blocko.coinstack.Math.convertToSatoshi("0.0002");
+ long fee = io.blocko.coinstack.Math.convertToSatoshi("0.0001");
+
+ TransactionBuilder builder = new TransactionBuilder();
+ builder.addOutput(toAddress, amount);
+ builder.setFee(fee);
+
+ String rawSignedTx = client.createSignedTransaction(builder, newPrivateKeyWIF);
+ System.out.println(rawSignedTx);
 
 
+dust threshold 
+allowDustyOutput(true)
 
 
+data transaction 
+
+sign the transaction using the private key 
+
+client.sendTransaction(rawSignedTx); 
+
+System.out.println(rawSignedTx);
+
+ String transactionId = TransactionUtil.getTransactionHash(rawSignedTx);
+
+print transaction
+ Transaction tx = client.getTransaction(transactionId);
+ System.out.println(tx.getConfirmationTime());
+
+https://www.blocko.io/console.html
+
+https://blocko-1.gitbook.io/coinstack-api-reference 
 
 
+Multisig
+smart contract ì™€ ìœ ì‚¬í•œ ê°œë… 
+prviate key í•˜ë‚˜ê°€ ì•„ë‹ˆë¼ 2ê°œ ì´ìƒ ë˜ëŠ” ì—¬ëŸ¬ ê°€ì§€ ì¤‘ ëª‡ ê°œ ì´ìƒì˜ ë°©ì‹ìœ¼ë¡œ ì¸ì¦ ê°€ëŠ¥ 
 
+meteor 
+
+coinstack API Reference 
+
+QR code Reader
 
 
 
