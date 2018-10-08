@@ -156,11 +156,13 @@ Private key -> public key -> wallet Address
 base58check encoding 
 
 String newPrivateKeyWIF = ECKey.createNewPrivateKey();
+
  System.out.println("private key: " + newPrivateKeyWIF);
 
 String newPublicKey = Hex.encodeHexString(ECKey.derivePubKey(newPrivateKeyWIF, false)); System.out.println("public key: " + newPublicKey); 
 
 String your_wallet_address = ECKey.deriveAddress(newPrivateKeyWIF); System.out.println("address: " + your_wallet_address); [ 14:29:47 ]
+
 
 Address Balance 
 현재 특정 비트코인 주소에서 다른 주소로 송금 가능한 잔액을 사토시 단위로 나타내는 객체
@@ -170,32 +172,52 @@ Address Balance
 long balance = client.getBalance(your_wallet_address); System.out.println("balance: " + balance); 
 
 String[] transactionIds = client.getTransactions(your_wallet_address);
+
  System.out.println("transactions");
+
  for (String txId : transactionIds) {
+
  System.out.println("txIds[]: " + txId);
+
  }
 
 
+
 Address Unspent Outputs : 이중 지불을 막기 위해
+
  Output[] outputs = client.getUnspentOutputs(your_wallet_address);
+
  System.out.println("unspent outputs");
+
  for (Output utxo : outputs) {
+
  System.out.println(utxo.getValue());
+
  }
 
 Transaction 생성 및 서명 
 일반적으로 트랜잭션은 내 주소의 잔여 비트코인을 타 주소로 전송하기 위해 사용 
 
 String toPrivateKeyWIF = ECKey.createNewPrivateKey();
+
  String toAddress = ECKey.deriveAddress(toPrivateKeyWIF);
+
  long amount = io.blocko.coinstack.Math.convertToSatoshi("0.0002");
+
  long fee = io.blocko.coinstack.Math.convertToSatoshi("0.0001");
 
+
+
  TransactionBuilder builder = new TransactionBuilder();
+
  builder.addOutput(toAddress, amount);
+
  builder.setFee(fee);
 
+
+
  String rawSignedTx = client.createSignedTransaction(builder, newPrivateKeyWIF);
+
  System.out.println(rawSignedTx);
 
 
@@ -211,10 +233,15 @@ client.sendTransaction(rawSignedTx);
 
 System.out.println(rawSignedTx);
 
+
+
  String transactionId = TransactionUtil.getTransactionHash(rawSignedTx);
+
+
 
 print transaction
  Transaction tx = client.getTransaction(transactionId);
+
  System.out.println(tx.getConfirmationTime());
 
 https://www.blocko.io/console.html
@@ -231,6 +258,118 @@ meteor
 coinstack API Reference 
 
 QR code Reader
+
+
+==================================================================
+
+1008
+1세대 transaction 
+2세대 프로그래밍 
+이더리움  솔리디티  web3 geth dapp
+
+이더리움 
+pow -> pos 
+
+UXTO 아닌 Account 
+
+Uncle Block 
+
+Turing Complete - EVM 
+
+비트코인은 반복문 제공 X : Turing Complete 하지 못하다
+
+UXTO : 높은 수준의 프라이버시
+Account : 공간절약, 단순성
+
+EOA Externally Owned Account, 
+
+CA Contract Account 
+이더 자체, 자체적으로 트랜잭션할 수 없다
+
+ECC, secp256k1, keccak-256 
+
+트랜잭션 : 최대 gas, gas 비용 
+
+이더리움 블록 
+블록 생성 시간 : 생성이 빠르면 난이도가 낮으므로 보안 수준이 나빠짐, 
+반대로 생성이 느리면 난이도가 높아지고 보안 수준이 올라가짐 
+
+스테일 블록  엉클 블록 
+
+고스트 프로토콜 (다중 체인 방지)
+두개까지 엉클블록을 가질 수 있다 
+
+Heaviest : 가장 리소스 많이 쓴 블록 
+
+이더리움 포크 
+일반 포크, 소프트 포크, 하드 포크 
+
+이더리움 부트스트랩 노드 
+네트워크 상 특정 노드 찾는 문제 해결을 위해 
+
+이더리움 어카운트 
+컨트랙트 어카운트 
+
+스마트 컨트랙트 동작 원리 
+출처 : 블록체인 애플리케이션 개발 실전 입문 
+
+이더리움 클라이언트 
+이더리움 네트워크 
+
+스마트 컨트랙트 코딩 : 솔리디티이나 다른 언어 
+구현 소스코드 컴파일 : EVM 바이트 코드 생성됨
+스마트 컨트랙트 배포 : ...Mist나 Remix와 같은 툴 사용, 소스 컴파일-> ABI
+
+// 버전 프라그마, 계약 선언, 상태 변수 선언, 생성자, 메서드 선언 
+
+채굴 : 송신자만 있고 수신자가 없음, gasLimit, gasUsed, ....
+
+이더리움 어카운트 : From은 EOA, to는 EOA 또는 CA
+
+V, R, S 값이 만들어짐 
+
+이더와 가스 : Wei, Ether, Dapp, 플랫폼 코인, 
+
+트랜잭션이 수행되면 가스가 사용되는 과정 
+cf. out of gas 
+
+assemly language compile -> opcode 당 gas 계산 
+
+
+솔리디티 이해 
+cf. Solc
+
+Dapp Architecture 
+
+medium.com/how to build first ~~
+
+프론트 사이드 : Web3.js 이더리움 자바스크립트 API 
+백엔드 사이드 : Solidity, Remix IDE 
+
+함수 가시성
+
+오버플로우와 언더플로우 
+
+payable
+
+cf. modifier, abort()
+
+view 
+
+컨트랙트 구조 
+
+Address 주소형
+잘못 사용되면 중복 인출 문제 발생, Tranfer 권장 
+
+Turple(튜플) 
+
+솔리디티 함수 옵션 
+
+mapping
+
+오류 처리 :  revert, require, assert 
+
+selfdestruct(creator);
 
 
 
