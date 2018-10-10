@@ -297,6 +297,8 @@ ECC, secp256k1, keccak-256
 스테일 블록  엉클 블록 
 
 고스트 프로토콜 (다중 체인 방지)
+Greedy Heaviest Object SubTree 
+
 두개까지 엉클블록을 가질 수 있다 
 
 Heaviest : 가장 리소스 많이 쓴 블록 
@@ -367,16 +369,87 @@ Turple(튜플)
 
 mapping
 
-오류 처리 :  revert, require, assert 
+오류 처리 : revert, require, assert 
 
 selfdestruct(creator);
 
+==================================================================
 
 
+1010 
+
+mainnet, testnet
+
+pure return ~
+payable 
+
+mapping (address => bool) voters;
+mapping (string => uint) candidates;
+mapping (uint8 => string) candidateList;
+
+프라이빗 블록체인 
+Ethereum Client
+
+Go Ethereum = Geth
 
 
+address : {2527b82b95eb77061460fe8e1e22c8c819f77b5b}
+
+personal new account : "a47ac7a440af4eb09fecab5dd9e85e9800656ed2"
+
+이더의 단위 
+
+eth.coinbase : 보상 받는 계정 확인 
 
 
+deck : hash한 값을 미리 사용하는 것(ASIC 과의 저항성)
+
+json rpc 2.0 
+
+geth 실행 옵션 
+--rpcapi 
+
+λ geth --datadir "p1" init Genesis.json
+
+λ geth --datadir "p1" --port 30301 --networkid 15 --ipcdisable console
+
+personal.newAccount("eth")  "0x89bc2f348e88dba5ca92695ccbbc5e930f04911e"
+
+admin.nodeInfo.enode
+"enode://11b3dbf1e541442886cc0547e7468002de5f9408de925448ca490e9f14206b1327b6532357a913097df3b466011ad201689a90d41a8b20d7742df054a6be4992@[::]:30301"
+
+ admin.addPeer("enode://11b3dbf1e541442886cc0547e7468002de5f9408de925448ca490e9f14206b1327b6532357a913097df3b466011ad201689a90d41a8b20d7742df054a6be4992@[::]:30301")
+
+net.peerCount
+
+> admin.peers
+[{
+ caps: ["eth/62", "eth/63"],
+ id: "b594328f7aa4d328f8f51b0f3967ecba1890d52608bdffba54fe8841300200a4416a7798578407ad2e81f79e49b9fb9ab25ba49703383296845128afeb36189e",
+ name: "Geth/v0.2.1-akroma-083874ee/linux-amd64/go1.10.1",
+ network: {
+ localAddress: "192.168.30.216:56065",
+ remoteAddress: "107.191.47.17:30303"
+ },
+ protocols: {
+ eth: "handshake"
+ }
+}, {
+ caps: ["eth/63"],
+ id: "b601154d5910f8c1b90d0b028d647b918af7cd5cebd391b68363e909797e3cf4da8609aa58411db9bfa6754fbb5f2a519eaa6bce862e3f6a0d4185ae9cf463b1",
+ name: "Geth/v1.7.3-stable-4bb3c89d/windows-amd64/go1.9",
+ network: {
+ localAddress: "127.0.0.1:30301",
+ remoteAddress: "127.0.0.1:51524"
+ },
+ protocols: {
+ eth: {
+ difficulty: 1182592,
+ head: "0x2b46cca52cb97bf89d50a5f08ad51d85f1368cf76963498f2f4a5a7bd536b87f",
+ version: 63
+ }
+ }
+}]
 
 
 
