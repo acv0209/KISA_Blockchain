@@ -1,12 +1,3 @@
-To do List 
-
-정보 보안 기사
-
-국민 연금 자소서 
-
-네트워크 보고서 등 
-
-=================================================================
 
 Consortium Semi-private private public 
 
@@ -423,33 +414,81 @@ admin.nodeInfo.enode
 net.peerCount
 
 > admin.peers
+
 [{
+
  caps: ["eth/62", "eth/63"],
+
  id: "b594328f7aa4d328f8f51b0f3967ecba1890d52608bdffba54fe8841300200a4416a7798578407ad2e81f79e49b9fb9ab25ba49703383296845128afeb36189e",
+
  name: "Geth/v0.2.1-akroma-083874ee/linux-amd64/go1.10.1",
+
  network: {
+
  localAddress: "192.168.30.216:56065",
+
  remoteAddress: "107.191.47.17:30303"
+
  },
+
  protocols: {
+
  eth: "handshake"
+
  }
+
 }, {
+
  caps: ["eth/63"],
+
  id: "b601154d5910f8c1b90d0b028d647b918af7cd5cebd391b68363e909797e3cf4da8609aa58411db9bfa6754fbb5f2a519eaa6bce862e3f6a0d4185ae9cf463b1",
+
  name: "Geth/v1.7.3-stable-4bb3c89d/windows-amd64/go1.9",
+
  network: {
+
  localAddress: "127.0.0.1:30301",
+
  remoteAddress: "127.0.0.1:51524"
+
  },
+
  protocols: {
+
  eth: {
+
  difficulty: 1182592,
+
  head: "0x2b46cca52cb97bf89d50a5f08ad51d85f1368cf76963498f2f4a5a7bd536b87f",
+
  version: 63
+
  }
+
  }
+
 }]
+
+============================================================
+
+RPC API 
+
+web3.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
